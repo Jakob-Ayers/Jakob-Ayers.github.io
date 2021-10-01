@@ -15,13 +15,21 @@ body{
 .item3 {
     grid-area: menu;
     background-color: #00c217;
-    padding: 14px 16px;
 }
 .item4 {grid-area: main;}
 
-.menuitem:hover{
+.menuitem{
+    overflow: hidden;
+}
+
+.menuitem a{
+    padding: 14px 16px;
+    color:black;
+}
+.menuitem a:hover{
     background-color: #006408;
     color: white;
+    /*padding: 14px 16px;*/ 
 }
 
 .grid-container {
@@ -35,7 +43,6 @@ body{
 
 .grid-container > div {
     text-align: center;
-
 }
 
 .topnav a{
