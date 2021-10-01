@@ -1,5 +1,5 @@
 body{
-    background-color: lightgreen;
+    background-color: #00920c;
 }
 
 .links{
@@ -7,5 +7,41 @@ body{
 }
 
 .links:hover{
+    color:white;
+}
+
+.item1 {grid-area: nav;}
+.item2 {grid-area: header;}
+.item3 {
+    grid-area: menu;
+    background-color: #00c217;
+    padding: 14px 16px;
+}
+.item4 {grid-area: main;}
+
+.grid-container {
+    display: grid;
+    grid-template-areas: 
+    'nav nav nav'
+    'header header header'
+    'menu main main';
+    padding: 10px;
+}
+
+.grid-container > div {
+    text-align: center;
+
+}
+
+.topnav a{
+ text-align: center;
+ padding: 14px 16px;
+ text-decoration: none;
+ background-color: #00c217;
+color:black;
+}
+
+.topnav a:hover {
+    background-color: #006408;
     color:white;
 }
