@@ -10,14 +10,36 @@ body{
     color:white;
 }
 
-.item1 {grid-area: nav;}
+.item1 {
+    grid-area: nav;
+    background-color: #00c217;
+    padding: 10px 10px;
+}
+
 .item2 {grid-area: header;}
+
 .item3 {
     grid-area: menu;
     background-color: #00c217;
     padding: 10px 10px;
 }
+
 .item4 {grid-area: main;}
+
+.topnav{
+    overflow: hidden;
+}
+
+.topnav a{
+    padding: 14px 16px;
+    color:black;
+}
+
+.topnav a:hover{
+    background-color: #006408;
+    color: white;
+    font-weight: 700;
+}
 
 .menuitem{
     overflow: hidden;
