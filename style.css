@@ -15,6 +15,7 @@ body{
 .item3 {
     grid-area: menu;
     background-color: #00c217;
+    padding: 10px 10px;
 }
 .item4 {grid-area: main;}
 
