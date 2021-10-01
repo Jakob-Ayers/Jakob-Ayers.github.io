@@ -19,6 +19,11 @@ body{
 }
 .item4 {grid-area: main;}
 
+.menuitem:hover{
+    background-color: #006408;
+    color: white;
+}
+
 .grid-container {
     display: grid;
     grid-template-areas: 
