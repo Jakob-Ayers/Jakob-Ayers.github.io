@@ -2,11 +2,11 @@ body{
     background-color: #00920c;
 }
 
-.links{
+.links a{
     color:black;
 }
 
-.links:hover{
+.links a:hover{
     color:white;
 }
 
