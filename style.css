@@ -1,13 +1,20 @@
 body {
+    background-image: url(https://images.thefishsite.com/fish%2Farticles%2Famphibians%2Ffrog-farming-credit-greg-lutz-thailand-ip-edit.jpg?scale.option=fill&scale.width=1200&scale.height=630&crop.width=1200&crop.height=630&crop.y=center&crop.x=center);
+    background-repeat: no-repeat;
+    background-size: cover;
+
     margin: 40px;
     padding: 25px;
 
-    border: 1px solid black;
+    border: 1px solid #ffffff;
+}
 
+.grid-container{
     display: grid;
     grid-template-areas: 
     'tit tit'
     'school pers';
+
     grid-template-columns: 50% 50%;
     grid-gap: 10px;
 }
@@ -17,6 +24,7 @@ body {
 }
 .tit > h1 {
     text-align: center;
+    color: white
 }
 
 .school {
@@ -28,10 +36,16 @@ body {
 }
 
 .school, .pers {
-    border: 1px solid black;
+    border: 1px solid #ffffff;
+    background-color: #ffffff20;
     padding: 25px;
 }
 
 .school > a, .pers > a {
     color: lightseagreen;
+}
+
+.school > h2, .pers > h2 {
+    color: white;
+    text-align: center;
 }
