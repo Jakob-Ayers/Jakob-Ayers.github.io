@@ -1,0 +1,37 @@
+body {
+    margin: 40px;
+    padding: 25px;
+
+    border: 1px solid black;
+
+    display: grid;
+    grid-template-areas: 
+    'tit tit'
+    'school pers';
+    grid-template-columns: 50% 50%;
+    grid-gap: 10px;
+}
+
+.tit {
+    grid-area: tit;
+}
+.tit > h1 {
+    text-align: center;
+}
+
+.school {
+    grid-area: school;
+}
+
+.pers {
+    grid-area: pers;
+}
+
+.school, .pers {
+    border: 1px solid black;
+    padding: 25px;
+}
+
+.school > a, .pers > a {
+    color: lightseagreen;
+}
