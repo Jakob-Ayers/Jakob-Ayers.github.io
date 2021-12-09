@@ -3,6 +3,46 @@ body {
     margin: 40px;
     border: 1px solid black;
 }
+
+a {
+    color: #0000ff;
+    text-decoration: none;
+}
+
 header > h1 {
     text-align: center;
+}
+
+nav {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+}
+
+footer a {
+    border: 1px solid #d0d0d0;
+    border-radius: 5px;
+
+    background-color: #d0d0d0;
+    color: #0000ff;
+
+    padding: 2px;
+    margin-right: 5px;
+}
+footer a strong {
+    border: 1px solid #0000ff;
+    border-radius: 5px;
+
+    background-color: #0000ff;
+    color: #d0d0d0;
+}
+footer a:hover {
+    background-color: #0000ff;
+    color: #d0d0d0;
+}
+footer a:hover strong {
+    background-color: #d0d0d0;
+    color: #0000ff;
 }
