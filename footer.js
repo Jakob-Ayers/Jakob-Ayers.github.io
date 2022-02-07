@@ -8,7 +8,7 @@ function footer() {
         document.getElementsByTagName("body").item(0).innerHTML +=
         `<footer>
         <a><strong>HTML</strong> Valid!</a>
-        <a><strong> CSS </strong> Valid! </a>
+        <a><strong>CSS</strong> Valid! </a>
         </footer>`
         foot = document.getElementsByTagName("footer").item(0)    
     }
